@@ -98,6 +98,12 @@ nav a {
   object-fit: contain;
 }
 
+.socials a {
+  display: block;
+  width: 34px;
+  height: 34px;
+}
+
 @media (max-width: 800px) {
   header {
     display: block;
