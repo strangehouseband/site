@@ -1,8 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   color: #000;
   background: #fff;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 header {
@@ -35,7 +44,7 @@ nav a {
 
 .home-layout {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: minmax(0, 2fr) minmax(220px, 1fr);
   gap: 70px;
   align-items: center;
   padding: 50px 10vw;
@@ -43,13 +52,14 @@ nav a {
 
 .hero {
   position: relative;
+  max-width: 720px;
+  margin: 0 auto;
 }
 
 .hero img {
+  display: block;
   width: 100%;
   max-width: 720px;
-  display: block;
-  margin: 0 auto;
 }
 
 .hero h1 {
@@ -63,9 +73,14 @@ nav a {
   background: #fff;
 }
 
+.feature {
+  max-width: 280px;
+}
+
 .feature img {
-  width: 100%;
-  max-width: 260px;
+  display: block;
+  width: 260px;
+  max-width: 100%;
 }
 
 .feature p {
@@ -90,18 +105,22 @@ nav a {
   display: flex;
   flex-direction: column;
   gap: 24px;
-}
-
-.socials img {
   width: 34px;
-  height: 34px;
-  object-fit: contain;
 }
 
 .socials a {
   display: block;
   width: 34px;
   height: 34px;
+}
+
+.socials img {
+  display: block;
+  width: 34px;
+  height: 34px;
+  max-width: 34px;
+  max-height: 34px;
+  object-fit: contain;
 }
 
 @media (max-width: 800px) {
@@ -120,6 +139,10 @@ nav a {
     padding: 30px 20px;
   }
 
+  .hero {
+    max-width: 100%;
+  }
+
   .hero h1 {
     position: static;
     font-size: 52px;
@@ -134,5 +157,6 @@ nav a {
     position: static;
     flex-direction: row;
     padding: 20px;
+    width: auto;
   }
 }
