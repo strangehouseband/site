@@ -228,3 +228,86 @@ nav a {
     font-size: 42px;
   }
 }
+
+.shows-page {
+  padding: 60px 10vw 80px;
+  max-width: 900px;
+}
+
+.shows-page h1 {
+  font-size: 72px;
+  line-height: 1;
+  margin: 0 0 60px;
+}
+
+.show-card {
+  margin-bottom: 50px;
+  padding-left: 24px;
+  border-left: 3px solid #000;
+}
+
+.show-date {
+  font-size: 18px;
+  font-weight: 800;
+  margin: 0 0 8px;
+  text-transform: uppercase;
+}
+
+.show-card h2 {
+  font-size: 36px;
+  line-height: 1.1;
+  margin: 0 0 8px;
+}
+
+.show-card a,
+.booking a {
+  color: #000;
+  text-decoration: none;
+}
+
+.show-card a:hover,
+.booking a:hover {
+  opacity: 0.6;
+}
+
+.show-card p {
+  font-size: 20px;
+  margin: 0;
+}
+
+.booking {
+  margin-top: 110px;
+}
+
+.booking h2 {
+  font-size: 32px;
+  font-weight: 900;
+  margin: 0 0 12px;
+}
+
+.booking p {
+  font-size: 20px;
+  margin: 0;
+}
+
+@media (max-width: 800px) {
+  .shows-page {
+    padding: 40px 24px 70px;
+  }
+
+  .shows-page h1 {
+    font-size: 52px;
+  }
+
+  .show-card {
+    padding-left: 18px;
+  }
+
+  .show-card h2 {
+    font-size: 30px;
+  }
+
+  .booking {
+    margin-top: 80px;
+  }
+}
