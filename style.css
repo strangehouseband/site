@@ -51,8 +51,7 @@ nav a {
 }
 
 .hero {
-  position: relative;
-  max-width: 720px;
+  max-width: 900px;
   margin: 0 auto;
 }
 
@@ -63,14 +62,12 @@ nav a {
 }
 
 .hero h1 {
-  position: absolute;
-  left: -40px;
-  bottom: 20px;
+  position: static;
   font-size: 78px;
   line-height: 1.08;
-  margin: 0;
+  margin: 20px 0 0;
   font-weight: 900;
-  background: #fff;
+  text-align: center;
 }
 
 .feature {
