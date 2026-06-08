@@ -49,6 +49,42 @@ nav a:hover,
   opacity: 0.6;
 }
 
+/* Home */
+
+.home-simple {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px 20px 80px;
+  text-align: center;
+}
+
+.home-simple h1 {
+  font-size: clamp(52px, 8vw, 96px);
+  line-height: 0.95;
+  margin: 0 0 40px;
+  font-weight: 900;
+  letter-spacing: 4px;
+}
+
+.band-photo {
+  display: block;
+  width: 100%;
+  margin: 0 auto 30px;
+}
+
+.band-quote {
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 18px 22px;
+}
+
+.band-quote p {
+  margin: 0;
+  font-size: 22px;
+  line-height: 1.35;
+  font-weight: 800;
+}
+
 /* Social Icons */
 
 .socials {
@@ -248,4 +284,8 @@ nav a:hover,
   .booking {
     margin-top: 80px;
   }
+}
+
+.band-quote p {
+  font-size: 18px;
 }
