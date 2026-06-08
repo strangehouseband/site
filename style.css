@@ -49,22 +49,6 @@ nav a:hover,
   opacity: 0.6;
 }
 
-/* Video */
-
-.video-feature {
-  width: 100%;
-  max-width: 1200px;
-  margin: 24px auto 70px;
-  padding: 0 16px;
-}
-
-.youtube-video {
-  display: block;
-  width: 100%;
-  aspect-ratio: 16 / 9;
-  border: 0;
-}
-
 /* Home */
 
 .home-layout {
@@ -285,11 +269,6 @@ nav a:hover,
     font-size: 24px;
     gap: 30px;
   }
-
-.video-feature {
-  margin: 24px auto 40px;
-  padding: 0 16px;
-}
 
   .home-layout {
     display: block;
