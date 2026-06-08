@@ -299,15 +299,8 @@ nav a:hover,
   font-size: 18px;
 }
 
-.cvp-headline {
-  font-size: clamp(90px, 14vw, 220px);
-  line-height: 0.85;
-}
-
 @media (max-width: 800px) {
-  .cvp-headline {
-    font-size: clamp(48px, 16vw, 90px);
-    line-height: 0.9;
-    letter-spacing: 2px;
+  h1 {
+    transform: scale(0.9);
   }
 }
