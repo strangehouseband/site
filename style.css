@@ -59,11 +59,38 @@ nav a:hover,
 }
 
 .home-simple h1 {
+  display: block;
+  width: 100%;
+  text-align: center;
   font-size: clamp(52px, 8vw, 96px);
   line-height: 0.95;
-  margin: 40 0 40px;
+  margin: 0 auto 40px;
   font-weight: 900;
   letter-spacing: 4px;
+}
+
+.band-photo {
+  display: block;
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  margin: 0 auto 36px;
+}
+
+.band-quote {
+  display: block;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 18px 22px;
+  text-align: center;
+}
+
+.band-quote p {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 22px;
+  line-height: 1.35;
+  font-weight: 800;
 }
 
 .band-photo {
