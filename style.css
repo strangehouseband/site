@@ -53,28 +53,25 @@ nav a:hover,
 
 .video-feature {
   width: 100%;
-  margin: 24px auto 60px;
+  margin: 24px auto 70px;
   padding: 0 16px;
+  display: flex;
+  justify-content: center;
 }
 
 .video-wrap {
-  position: relative;
   width: 100%;
   max-width: 1200px;
-  margin: 0 auto;
-  padding-bottom: 56.25%;
-  height: 0;
-  overflow: hidden;
+  aspect-ratio: 16 / 9;
 }
 
 .video-wrap iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
+  display: block;
   width: 100%;
   height: 100%;
   border: 0;
 }
+
 /* Home */
 
 .home-layout {
@@ -296,15 +293,14 @@ nav a:hover,
     gap: 30px;
   }
 
-  .video-feature {
-    margin: 24px auto 40px;
-    padding: 0 16px;
-  }
+.video-feature {
+  margin: 24px auto 40px;
+  padding: 0 16px;
+}
 
-  .video-wrap {
-    width: 100%;
-    max-width: 100%;
-  }
+.video-wrap {
+  max-width: 100%;
+}
 
   .home-layout {
     display: block;
