@@ -299,7 +299,7 @@ nav a:hover,
   font-size: 18px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 650px) {
   h1 {
     transform: scale(0.9);
   }
