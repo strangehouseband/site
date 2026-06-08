@@ -310,3 +310,34 @@ nav a {
     margin-top: 80px;
   }
 }
+
+.photo-hover {
+  position: relative;
+}
+
+.photo-hover img {
+  display: block;
+  width: 100%;
+}
+
+.photo-message {
+  position: absolute;
+  left: 24px;
+  right: 24px;
+  bottom: 24px;
+  background: #fff;
+  padding: 18px 22px;
+  opacity: 0;
+  transition: opacity 0.25s ease;
+}
+
+.photo-message p {
+  margin: 0;
+  font-size: 22px;
+  line-height: 1.25;
+  font-weight: 800;
+}
+
+.photo-hover:hover .photo-message {
+  opacity: 1;
+}
