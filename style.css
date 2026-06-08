@@ -50,26 +50,6 @@ nav a {
   padding: 50px 10vw;
 }
 
-.hero {
-  max-width: 900px;
-  margin: 0 auto;
-}
-
-.hero img {
-  display: block;
-  width: 100%;
-  max-width: 720px;
-}
-
-.hero h1 {
-  position: static;
-  font-size: clamp(48px, 8vw, 78px);
-  line-height: 1.05;
-  margin: 24px 0 0;
-  font-weight: 900;
-  text-align: center;
-}
-
 .feature {
   max-width: 280px;
 }
@@ -229,6 +209,7 @@ nav a {
 .shows-page {
   padding: 60px 10vw 80px;
   max-width: 900px;
+  margin: 0 auto;
 }
 
 .shows-page h1 {
@@ -288,11 +269,6 @@ nav a {
 }
 
 @media (max-width: 800px) {
-.shows-page {
-  padding: 60px 10vw 80px;
-  max-width: 900px;
-  margin: 0 auto;
-}
 
   .shows-page h1 {
     font-size: 52px;
@@ -309,37 +285,6 @@ nav a {
   .booking {
     margin-top: 80px;
   }
-}
-
-.photo-hover {
-  position: relative;
-}
-
-.photo-hover img {
-  display: block;
-  width: 100%;
-}
-
-.photo-message {
-  position: absolute;
-  left: 24px;
-  right: 24px;
-  bottom: 24px;
-  background: #fff;
-  padding: 18px 22px;
-  opacity: 0;
-  transition: opacity 0.25s ease;
-}
-
-.photo-message p {
-  margin: 0;
-  font-size: 12px;
-  line-height: 1.25;
-  font-weight: 800;
-}
-
-.photo-hover:hover .photo-message {
-  opacity: 1;
 }
 
 .video-feature {
@@ -359,4 +304,35 @@ nav a {
   width: 100%;
   height: 100%;
   border: 0;
+}
+
+.hero {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: clamp(48px, 8vw, 84px);
+  line-height: 1.05;
+  margin: 0 0 40px;
+  font-weight: 900;
+}
+
+.photo-hover img {
+  display: block;
+  width: 100%;
+}
+
+.photo-message {
+  background: #fff;
+  padding: 18px 22px;
+  margin-top: 18px;
+}
+
+.photo-message p {
+  margin: 0;
+  font-size: 22px;
+  line-height: 1.3;
+  font-weight: 800;
 }
