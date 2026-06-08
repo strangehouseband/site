@@ -291,9 +291,11 @@ nav a {
 }
 
 @media (max-width: 800px) {
-  .shows-page {
-    padding: 40px 24px 70px;
-  }
+.shows-page {
+  padding: 60px 10vw 80px;
+  max-width: 900px;
+  margin: 0 auto;
+}
 
   .shows-page h1 {
     font-size: 52px;
