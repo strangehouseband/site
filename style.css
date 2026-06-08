@@ -63,9 +63,9 @@ nav a {
 
 .hero h1 {
   position: static;
-  font-size: 78px;
-  line-height: 1.08;
-  margin: 20px 0 0;
+  font-size: clamp(48px, 8vw, 78px);
+  line-height: 1.05;
+  margin: 24px 0 0;
   font-weight: 900;
   text-align: center;
 }
