@@ -299,8 +299,13 @@ nav a:hover,
   font-size: 18px;
 }
 
-@media (max-width: 650px) {
-  h1 {
-    transform: scale(0.9);
+@media (max-width: 800px) {
+  main h1 {
+    font-size: clamp(58px, 18vw, 92px) !important;
+    line-height: 0.9 !important;
+    letter-spacing: 1px !important;
+    margin: 40px auto 32px !important;
+    text-align: center !important;
+    width: 100% !important;
   }
 }
