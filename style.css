@@ -343,14 +343,15 @@ nav a {
 }
 
 .video-feature {
-  max-width: 1000px;
-  margin: 40px auto 70px;
-  padding: 0 20px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .video-wrap {
-  position: relative;
   width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
   aspect-ratio: 16 / 9;
 }
 
